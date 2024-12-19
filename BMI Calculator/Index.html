@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> BMI Calculator</title>
+        <link rel="stylesheet"
+        href="/style.css" />
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li>BMICalc.net</li>
+            </ul>
+            <img src="./standing-human-body-silhouette.png"/>
+        </div>
+        <h2> BMI Calculator </h2>
+        <div class="calc-box">
+            <ul>
+                <li> Age
+                    <input id="age">
+                </li>
+                <li> Gender 
+                    <input type ="radio" class="g">   Male
+                    <input type="radio" class="g">   Female
+                </li>
+                <li> Height
+                    <input id="height" placeholder="cm">
+                </li>
+                <li> Weight</li>
+                <input id="weight" placeholder="Kgs">
+            </ul>
+            <button id="submit"> CALCULATE </button>
+        </div>
+    
+            <p id="output"></p>
+       
+        <P> Body Mass Index (BMI) is a commonly used measure to assess an individual's body weight relative to their height. It's a quick and simple way to categorize people into different weight groups, such as underweight, normal weight, overweight, or obese. </P>
+        <p>BMI is calculated using the formula:</p>
+          <p>  BMI= Weight(Kg)/ Height <span id="super">2</span>(m)
+        </p>
+
+        <script src="./index.js"> </script>
+    </body>
+</html>
